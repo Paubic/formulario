@@ -14,7 +14,46 @@
             <nav class="menu"></nav>
         </header>
         <!-- MAIN -->
-        <main></main>
+        <main>
+
+            <!--metodo get i post-->
+
+            <form action="enviado.html" method="get">
+
+                <!--Nombre Completo-->
+
+                <label>Nombre</label>
+                <input 
+                type="text" 
+                name="nombre" 
+                placeholder="nombre completo" 
+                pattern="^[A-Za-z] [2,20]$">
+
+                <!--Email-->
+                <label>Nombre</label>
+                <input 
+                type="text" 
+                name="Email" 
+                required 
+                placeholder="tu email personal">
+
+                <!--Movil-->
+                <label>Nombre</label>
+                <input 
+                type="text" 
+                name="Solo Movil">
+
+                <!--Comentario-->
+                <label>Nombre</label>
+                <textarea 
+                name="Comentario" 
+                cols="30" 
+                rows="10">
+                </textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </main>
         <!-- FOOTER -->
         <footer>
             <h6 class="copy">&copy;Copyright</h6>
